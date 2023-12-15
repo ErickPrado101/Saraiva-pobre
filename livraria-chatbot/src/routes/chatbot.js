@@ -6,7 +6,7 @@ router.post('/analyze-product', async (req, res) => {
   const userInput = req.body.userInput;
 
   // Lógica para interagir com o ChatGPT (substitua YOUR_OPENAI_API_KEY)
-  const apiKey = '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';
+  const apiKey = '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';
   const apiUrl = 'https://api.openai.com/v1/engines/davinci-codex/completions';
 
   try {
